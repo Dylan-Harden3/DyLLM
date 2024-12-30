@@ -4,3 +4,5 @@ torch
 accelerate
 bitsandbytes
 peft
+openai
+python-dotenv
