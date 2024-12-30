@@ -27,7 +27,6 @@ Provide just your response to the following question and no other text:
 def generate_responses(questions, client, model="gpt-4o-mini"):
     responses = []
     for i, question in enumerate(questions):
-        print(i)
         try:
             response = client.chat.completions.create(
                 model=model,
