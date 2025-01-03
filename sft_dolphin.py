@@ -22,7 +22,7 @@ def train(args):
     def format_tokenize(examples):
         chats = [
             [
-                {"role:": "system", "content": instruction},
+                {"role": "system", "content": instruction},
                 {"role": "user", "content": input},
                 {"role": "assistant", "content": output}
             ]
